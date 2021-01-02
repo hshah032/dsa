@@ -1,0 +1,19 @@
+1.3: Design an algorithm and write code to remove duplicate characters in a string  without using any additional buffers. NOTE: One or two additional variables are fine .
+
+string = "hellohi"
+
+function (str): 
+
+    Str = ""  
+
+    boolean[] bitsarr = new boolean [255];
+
+    for (int i = 0; i < str.length(); i++){
+        int bitsChar = str.charAt[i];
+
+        if ( !bitsarr[i] ) 
+            str += str.charAt(i);
+        else:
+            bitarr[i] = true
+    }
+    return str
