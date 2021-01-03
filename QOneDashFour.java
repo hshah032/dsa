@@ -6,8 +6,11 @@ public class QOneDashFour {
 
         String str1 = "rat";
         String str2 = "tar";
+        String str3 = "catbac";
+        String str4 = "baccat";
 
         System.out.println(isAnagram(str1, str2));
+        System.out.println(isAnagram(str3, str4));
     }
 
     private static boolean isAnagram(String str1, String str2) {
