@@ -1,0 +1,29 @@
+1.4: Determine if two strings are anagrams:
+
+
+Anagram: An anagram is a play on wors created by rearrnaging the letters
+of the original word  to make a new word or phrase. 
+
+
+String1: "night"
+String2: "thing"
+
+function boolean (String1, String2):
+    //do all the  words in the shorter word exist in the second word
+
+    len1: String1.length();
+    len2: String2.length():
+
+    if (len1!=len2): return false
+
+    Hashset<Character>  set = new  Hashset<>();
+    for (int i = 0; i < len1; i++){
+        set.add(String1.charAt(i));
+    }
+    for (int i = 0; i < len2; i++){
+        if (!set.contains(String2.charAt(i))){
+            return  false;
+        }
+    }
+    return true;
+        

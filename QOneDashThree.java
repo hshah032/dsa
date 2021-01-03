@@ -4,7 +4,7 @@ public class QOneDashThree {
 
     public static void main(String[] args) {
 
-        String str = "hellohihellohihellohihellohihellohihellohihellohihellohihellohihellohihellohihellohihellohihellohihellohihellohihellohihellohihellohihellohihellohihellohihellohi";
+        String str = "hellohi";
 
         System.out.println(removeDuplicates(str));
         System.out.println(removeDuplicates2(str));
